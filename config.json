@@ -1,0 +1,34 @@
+{
+  "audio": {
+    "input_device": null,
+    "output_device": null,
+    "sample_rate": 16000,
+    "buffer_size": 512,
+    "channels": 1,
+    "format": "int16"
+  },
+  "transformation": {
+    "model_path": "models/vietnamese_female.pt",
+    "pitch_shift": 5.0,
+    "formant_shift": 1.2,
+    "intensity": 0.8,
+    "preserve_tones": true
+  },
+  "performance": {
+    "threads": 2,
+    "max_latency_ms": 100,
+    "auto_adjust_buffer": true,
+    "enable_gpu": false
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/voice_transformer.log",
+    "max_file_size_mb": 10,
+    "backup_count": 3
+  },
+  "ui": {
+    "refresh_rate_ms": 250,
+    "show_metrics": true,
+    "color_output": true
+  }
+} 

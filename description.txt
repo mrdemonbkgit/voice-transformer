@@ -1,0 +1,6 @@
+i want to build a simple windows CLI app that will transform voice from male to female in real time.
+the voice input will be from microphone in the laptop or from a external microphone.
+this is for conversation, so the transformation should be as natural as possible and in real time.
+the language of the voice will be vietnamese.
+i am new to this so please build the app simply.
+i am prefer some ready to use solution, even paid ones.
